@@ -15,6 +15,7 @@
 		581E2C801DB0D087000C7AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581E2C7E1DB0D087000C7AAF /* LaunchScreen.storyboard */; };
 		581E2C8B1DB0D087000C7AAF /* JJAwesomeMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581E2C8A1DB0D087000C7AAF /* JJAwesomeMenuDemoTests.m */; };
 		581E2C961DB0D087000C7AAF /* JJAwesomeMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581E2C951DB0D087000C7AAF /* JJAwesomeMenuDemoUITests.m */; };
+		581E2CA51DB0D368000C7AAF /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581E2CA41DB0D368000C7AAF /* JJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		581E2C911DB0D087000C7AAF /* JJAwesomeMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJAwesomeMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		581E2C951DB0D087000C7AAF /* JJAwesomeMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAwesomeMenuDemoUITests.m; sourceTree = "<group>"; };
 		581E2C971DB0D087000C7AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581E2CA31DB0D368000C7AAF /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
+		581E2CA41DB0D368000C7AAF /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +106,8 @@
 			children = (
 				581E2C731DB0D087000C7AAF /* AppDelegate.h */,
 				581E2C741DB0D087000C7AAF /* AppDelegate.m */,
-				581E2C761DB0D087000C7AAF /* ViewController.h */,
-				581E2C771DB0D087000C7AAF /* ViewController.m */,
-				581E2C791DB0D087000C7AAF /* Main.storyboard */,
-				581E2C7C1DB0D087000C7AAF /* Assets.xcassets */,
-				581E2C7E1DB0D087000C7AAF /* LaunchScreen.storyboard */,
-				581E2C811DB0D087000C7AAF /* Info.plist */,
+				581E2CA31DB0D368000C7AAF /* JJViewController.h */,
+				581E2CA41DB0D368000C7AAF /* JJViewController.m */,
 				581E2C701DB0D087000C7AAF /* Supporting Files */,
 			);
 			path = JJAwesomeMenuDemo;
@@ -117,6 +116,12 @@
 		581E2C701DB0D087000C7AAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				581E2C761DB0D087000C7AAF /* ViewController.h */,
+				581E2C771DB0D087000C7AAF /* ViewController.m */,
+				581E2C791DB0D087000C7AAF /* Main.storyboard */,
+				581E2C7C1DB0D087000C7AAF /* Assets.xcassets */,
+				581E2C7E1DB0D087000C7AAF /* LaunchScreen.storyboard */,
+				581E2C811DB0D087000C7AAF /* Info.plist */,
 				581E2C711DB0D087000C7AAF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581E2CA51DB0D368000C7AAF /* JJViewController.m in Sources */,
 				581E2C781DB0D087000C7AAF /* ViewController.m in Sources */,
 				581E2C751DB0D087000C7AAF /* AppDelegate.m in Sources */,
 				581E2C721DB0D087000C7AAF /* main.m in Sources */,
