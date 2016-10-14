@@ -1,2 +1,2 @@
 # JJAwesomeMenuDemo
-写了一个AwesomeMenu开源库的小Demo
+这是一个 [AwesomeMenu](https://github.com/levey/AwesomeMenu) 开源库的小 Demo
