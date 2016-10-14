@@ -427,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
 				INFOPLIST_FILE = JJAwesomeMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJAwesomeMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DJYQ9E2R5Z;
 				INFOPLIST_FILE = JJAwesomeMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.JJAwesomeMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +516,7 @@
 				581E2C9C1DB0D087000C7AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		581E2C9D1DB0D087000C7AAF /* Build configuration list for PBXNativeTarget "JJAwesomeMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +525,7 @@
 				581E2C9F1DB0D087000C7AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		581E2CA01DB0D087000C7AAF /* Build configuration list for PBXNativeTarget "JJAwesomeMenuDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +534,7 @@
 				581E2CA21DB0D087000C7AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
